@@ -16,6 +16,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class OrderLineItems {
+    @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String skuCode;
